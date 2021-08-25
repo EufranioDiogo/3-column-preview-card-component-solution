@@ -12,7 +12,7 @@
 - **Motivo**: Diversão e para auto-motivação.
 - **Objectivo**: Fazer três cards apresentando 3 tipos de modelos de automóveis e suas descrições para uma melhor venda.
 - **Tecnologias Usadas**: `HTML`, `CSS`.
-- **Link de Acesso**: [click here](https://eufraniodiogo.github.io/3-column-preview-card-component-solutionn/)
+- **Link de Acesso**: [click here](https://eufraniodiogo.github.io/3-column-preview-card-component-solution/)
 - **Autor / Autores**: Eufránio Diogo
 
 
@@ -22,9 +22,9 @@
 - **Project Name**: 3-column preview card component solution
 - **Date / Creation Time**: 25/08/2021, Praticing my front-end skills to put in hot mode, and don't let it freeze.
 - **Why**: Diversion, auto-motivation
-- **Goals**: Do 3 cardas that presents 3 types of models of cars and it's description to promote the sells of the products.
+- **Goals**: Do 3 cards that presents 3 types of models of cars and it's description to promote the sells of the products.
 - **Used Tecs**: `HTML`, `CSS`.
-- **Access Link**: [click here](https://eufraniodiogo.github.io/3-column-preview-card-component-solutionn/)
+- **Access Link**: [click here](https://eufraniodiogo.github.io/3-column-preview-card-component-solution/)
 - **Author(s)**: Eufránio Diogo
 
 <h2 id="images">Imagens / Images</h2>
