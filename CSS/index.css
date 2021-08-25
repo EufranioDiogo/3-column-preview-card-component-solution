@@ -92,8 +92,8 @@ transition: 0.5s;
         margin: 5rem 0;
     }
     .main-container--element {
-        padding: 5rem 4rem;
-    }
+        padding: 2rem 3rem;
+    } 
     .main-container--element:first-child {
         border-radius: 1rem 1rem 0 0 ;
     }
