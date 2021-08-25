@@ -81,3 +81,23 @@ transition: 0.5s;
 .element-see-more:hover::after {
     width: 100%;
 }
+
+@media only screen and (max-width: 765px) {
+    .main-container {
+        flex-direction: column;
+        width: 90%;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%,0);
+        margin: 5rem 0;
+    }
+    .main-container--element {
+        padding: 5rem 4rem;
+    }
+    .main-container--element:first-child {
+        border-radius: 1rem 1rem 0 0 ;
+    }
+    .main-container--element:last-child {
+        border-radius: 0 0 1rem 1rem;
+    }
+}
