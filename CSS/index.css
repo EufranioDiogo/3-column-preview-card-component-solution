@@ -6,13 +6,13 @@ body {
     height: 100vh;
 }
 .main-container {
-    display: flex;
-    width: 65%;
+    display: grid;
+    width: 60%;
     position: relative;
-    left: 50%;
+    grid-template-columns: repeat(3, 1fr);
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    margin: auto 0;
 }
 
 .main-container--element {
@@ -24,7 +24,7 @@ body {
     transition: 0.3s
 }
 .main-container--element:hover {
-    transform: translateY(-1rem) scale(1.05);
+    transform: translateY(-1rem);
 }
 .main-container--element:first-child {
     border-radius: 1rem 0 0 1rem;
@@ -76,15 +76,27 @@ body {
     top: 0;
     height: 100%;
     background-color:#002f4e1e;
-transition: 0.5s;
+    transition: 0.5s;
 }
 .element-see-more:hover::after {
     width: 100%;
 }
-
-@media only screen and (max-width: 765px) {
+@media only screen and (min-width: 2565px) {
     .main-container {
-        flex-direction: column;
+        width: 1024px;
+    }
+}
+@media only screen and (max-width: 2564px) {
+    .main-container {
+        width: 85%;
+    }
+    .main-container--element {
+        padding: 4rem 4rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr;
         width: 90%;
         left: 50%;
         top: 0;
@@ -100,4 +112,38 @@ transition: 0.5s;
     .main-container--element:last-child {
         border-radius: 0 0 1rem 1rem;
     }
+    .element-icon {
+        width: 6.4rem;
+        margin-bottom: 2.8rem;
+    }
+    .element-title {
+        font-size: 2.3rem;
+        margin-bottom: 2.8rem;
+    }
+    .element-text {
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+    
+    .element-see-more {
+        margin-top: 10rem;
+        padding: 2rem;
+        text-decoration: none;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 6rem;
+        font-size: 1.6rem;
+        width: 50%;
+        text-transform: capitalize;
+        font-weight: bold;
+        position: relative;
+        transition: 0.5s;
+        overflow:hidden;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    
 }
